@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* default style hear  */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.h3-tag {
+  color: rgb(19, 19, 24);
+  font-family: Mulish;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.p-tag {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Mulish", serif;
+  max-width: 80%;
+  margin: 0 auto;
+  border: 2px solid orange;
+}
+/* default style end hear  */
+
+/* nav bar style hear */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.items {
+  display: flex;
+  align-items: center;
+  /* gap: 40px; */
+}
+.items li a {
+  margin: 40px;
+  color: rgb(66, 66, 71);
+  font-size: 1rem;
+  /* font-weight: 400; */
+}
+.span-for-nav {
+  color: rgb(255, 84, 0);
+}
+
+/* nav bar style hear */
